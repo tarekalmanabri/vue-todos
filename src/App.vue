@@ -1,20 +1,20 @@
 <template>
   <div class="flex flex-col items-center">
-    <Header />
+    <CustomHeader />
     <TodoForm @add-todo="addTodo" />
-    <Todos :todos="todos" />
+    <TodoList :todos="todos" />
   </div>
 </template>
 
 <script>
-import Todos from './components/Todos'
-import Header from './components/Header.vue'
+import TodoList from './components/TodoList'
+import CustomHeader from './components/CustomHeader.vue'
 import TodoForm from './components/TodoForm.vue'
 
 export default {
   components: {
-    Todos,
-    Header,
+    TodoList,
+    CustomHeader,
     TodoForm
   },
 

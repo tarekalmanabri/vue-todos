@@ -1,5 +1,5 @@
 {
-  "name": "self",
+  "name": "todo-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,18 +12,18 @@
     "vue": "^2.6.11"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "@fullhuman/postcss-purgecss": "^5.0.0",
     "@fullhuman/vue-cli-plugin-purgecss": "~4.0.3",
     "@tailwindcss/postcss7-compat": "^2.1.0",
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
     "autoprefixer": "^9.8.6",
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.8.0",
+    "eslint": "^8.44.0",
     "eslint-plugin-prettier": "^3.4.0",
-    "eslint-plugin-vue": "^6.2.2",
-    "postcss": "^7.0.35",
+    "eslint-plugin-vue": "^9.15.1",
+    "postcss": "^7.0.36",
     "prettier": "^1.19.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.0",
     "vue-template-compiler": "^2.6.11"
